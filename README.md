@@ -1,6 +1,10 @@
-# ParPerfeito
-Projeto designado para atender as necessidades de modernização da brincadeira "Par Perfeito" que ocorre no CEFET-MG.
+# Par Perfeito ❤️
+Projeto designado para atender as necessidades de modernização da brincadeira "Par Perfeito" que ocorre no CEFET-MG Campus Timóteo.
 
+
+## Documentação do projeto em PDF:
+
+[*CLIQUE AQUI*](PP-24.pdf)
 
 ## ACESSO AO DOCS: 
 **Segue o link do documento do projeto. Caso haja algum problema com acesso, envie solicitação e será resolvido o mais rápido possível**

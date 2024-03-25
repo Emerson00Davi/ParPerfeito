@@ -4,7 +4,7 @@ Projeto designado para atender as necessidades de modernização da brincadeira 
 
 ## Documentação do projeto em PDF:
 
-- [*CLIQUE AQUI*](PP-24.pdf)
+- [*CLIQUE AQUI*](https://drive.google.com/file/d/1N1xt9uSIFThMMcuBbXmkLYV8tLjo2M6O/view?usp=sharing)
 
 ## Acesso ao docs: 
 **Segue o link do documento do projeto. Caso haja algum problema com acesso, envie solicitação e será resolvido o mais rápido possível.**

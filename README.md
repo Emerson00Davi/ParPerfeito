@@ -11,4 +11,3 @@ Projeto designado para atender as necessidades de modernização da brincadeira 
 
 - [*CLIQUE AQUI*](https://docs.google.com/document/d/1DV5NhGaE7ZlcHFklxqtfIt62pAFXlMr3/edit?usp=sharing&ouid=106604440948711749137&rtpof=true&sd=true)
 
-  CHUPA O BICO DO MEU PEITOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO

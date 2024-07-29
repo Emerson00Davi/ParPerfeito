@@ -14,5 +14,5 @@ Projeto designado para atender as necessidades de modernização da brincadeira 
 ## Prototipação Interativa: 
 **Segue o PDF da prototipação interativa. Caso haja algum problema com acesso, envie solicitação e será resolvido o mais rápido possível.**
 
-- [*CLIQUE AQUI*](https://drive.google.com/file/d/1ygUmSJ9aQqAugp4wzCUS7KgOU4AZ0xwr/view?usp=drive_link))
+- [*CLIQUE AQUI*](https://drive.google.com/file/d/1ygUmSJ9aQqAugp4wzCUS7KgOU4AZ0xwr/view?usp=drive_link)
 

@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width:100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(img/Wallpaper\ com\ arte\ divertida\ de\ corações.png);
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 60px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col{
+    width: 50%;
+}
+
+h1{
+    color: white;
+    font-size: 80px;
+}
+
+h2{
+    color: white;
+    font-size: 20px;
+}
+
+p{
+    color: white;
+    font-size: 12px;
+}
+
+h5{
+    color: white;
+}
+
+button{
+    width: 180px;
+    color: black;
+    font-size: 12px;
+    padding: 12px 0;
+    background-color: white;
+    border: 0;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.but{
+    width: 100px;
+    color: black;
+    font-size: 12px;
+    padding: 12px 0;
+    background-color: white;
+    border: 0;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-left: 5px;
+}
+
+.card{
+    width: 158px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    margin: 10px 15px;
+    /* background-color: red; */
+    transition: 0.5s;
+}
+
+.card:hover{
+    transform: translateY(-15px);
+}
+
+.card1{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/img1.jpg);
+}
+
+.card2{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/img2.jpg);
+}
+
+.card3{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/img3.jpg);
+}
+
+.card4{
+    background-color: black;
+}

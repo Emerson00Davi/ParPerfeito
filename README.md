@@ -4,7 +4,7 @@ Projeto designado para atender as necessidades de modernização da brincadeira 
 
 ## Documentação do projeto em PDF:
 
-- [*CLIQUE AQUI*](https://drive.google.com/file/d/1GBnnRedv8vKDx3sOLLqrrfsL8MDJ_5RP/view?usp=drive_link)
+- [*CLIQUE AQUI*](https://drive.google.com/file/d/1DtQTuCB42AZWJhrq8TP8-H3iNYdxHc3Q/view?usp=drive_link)
 
 ## Acesso ao docs: 
 **Segue o link do documento do projeto. Caso haja algum problema com acesso, envie solicitação e será resolvido o mais rápido possível.**
@@ -14,5 +14,5 @@ Projeto designado para atender as necessidades de modernização da brincadeira 
 ## Prototipação Interativa: 
 **Segue o PDF da prototipação interativa. Caso haja algum problema com acesso, envie solicitação e será resolvido o mais rápido possível.**
 
-- [*CLIQUE AQUI*](https://drive.google.com/file/d/1ygUmSJ9aQqAugp4wzCUS7KgOU4AZ0xwr/view?usp=drive_link)
+- [*CLIQUE AQUI*](https://drive.google.com/file/d/1Dng6auXbKXUCi2LYBo9BjyCODNTQ73ns/view?usp=drive_link)
 

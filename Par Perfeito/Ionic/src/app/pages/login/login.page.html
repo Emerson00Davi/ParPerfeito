@@ -1,0 +1,71 @@
+<ion-header collapse="condense">
+  <ion-toolbar>
+    <ion-title size="large">Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="container">
+    <!-- Navbar -->
+    <div class="navbar">
+      <a href="index.html">
+        <img src="../../../assets/img/logo2.png" class="logo">
+      </a>
+    </div>
+
+    <!-- Conteúdo Principal -->
+    <div class="row">
+      <!-- Coluna com textos -->
+      <div class="col">
+        <h1>Par</h1>
+        <h1>Perfeito</h1>
+        <h2>Trago seu amor em até 7 dias!!</h2>
+      </div>
+
+      <!-- Coluna com formulário -->
+      <div class="col">
+        <div class="card5 carda">
+          <form [formGroup]="formGroup" (ngSubmit)="autenticar()">
+            <!-- Campo E-mail -->
+            <label for="email" style="color: white;">Email:</label>
+            <ion-item class="custom-input-item">
+              <ion-input 
+                id="email" 
+                type="email" 
+                formControlName="email" 
+                placeholder="Digite seu email" 
+                class="custom-input">
+              </ion-input>
+            </ion-item>
+            <br>
+
+            <!-- Campo Senha -->
+            <label for="password" style="color: white;">Senha:</label>
+            <ion-item class="custom-input-item">
+              <ion-input 
+                id="password" 
+                type="password" 
+                formControlName="senha" 
+                placeholder="Digite sua senha" 
+                class="custom-input">
+              </ion-input>
+            </ion-item>
+            <br>
+
+            <!-- Botão Entrar -->
+            <ion-button type="submit" expand="block" color="danger" [disabled]="!formGroup.valid" class="custom-button1">
+              Entrar
+            </ion-button>
+
+            <br>
+
+            <!-- Botão Cadastrar -->
+            <ion-button routerLink="/cadastrar" expand="block"  color="medium" class="custom-button2">
+              Cadastrar
+            </ion-button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</ion-content>

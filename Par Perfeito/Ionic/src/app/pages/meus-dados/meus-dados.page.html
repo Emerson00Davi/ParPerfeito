@@ -1,0 +1,53 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="dark">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/menu"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Meus dados</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding background">
+
+  <form [formGroup]="formGroup" (ngSubmit)="salvar()">
+    <ion-item class="form-item">
+      <ion-label position="stacked">Nome</ion-label>
+      <ion-input type="text" formControlName="nome"></ion-input>
+    </ion-item>
+
+    <ion-item class="form-item">
+      <ion-label position="stacked">Email</ion-label>
+      <ion-input type="text" formControlName="email" readonly></ion-input>
+    </ion-item>
+
+    <ion-item class="form-item">
+      <ion-label position="stacked">Senha</ion-label>
+      <ion-input type="text" formControlName="senha" readonly></ion-input>
+    </ion-item>
+
+    <ion-item class="form-item">
+      <ion-label position="stacked">CPF</ion-label>
+      <ion-input type="text" formControlName="cpf" readonly></ion-input>
+    </ion-item>
+
+    <ion-item class="form-item">
+      <ion-label position="stacked">Preferência</ion-label>
+      <ion-input type="text" formControlName="preferencia"></ion-input>
+    </ion-item>
+
+    <ion-item class="form-item">
+      <ion-label position="stacked">Descrição</ion-label>
+      <ion-input type="text" formControlName="descricao"></ion-input>
+    </ion-item>
+
+    <ion-item class="form-item">
+      <ion-label position="stacked">Usuário Instagram</ion-label>
+      <ion-input type="text" formControlName="usuarioInsta"></ion-input>
+    </ion-item>
+
+    <ion-button type="submit" expand="block" color="primary" [disabled]="!formGroup.valid" class="save-button">
+      Salvar
+    </ion-button>
+  </form>
+
+</ion-content>

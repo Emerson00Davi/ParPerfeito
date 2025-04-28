@@ -1,0 +1,7 @@
+{
+  "name": "par-perfeito",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

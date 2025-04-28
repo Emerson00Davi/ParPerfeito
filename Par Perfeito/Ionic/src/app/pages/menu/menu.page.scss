@@ -1,0 +1,39 @@
+.background {
+    --background: none;
+    background-image: url('/assets/img/fundinho.jpeg'); // Substitua com o caminho da sua imagem
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .menu-wrapper {
+    background-color: rgba(255, 255, 255, 0.85); // fundo semi-transparente
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .menu-item {
+    --background: transparent;
+    --color: #000;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    transition: transform 0.2s;
+  }
+  
+  .menu-item:hover {
+    transform: scale(1.02);
+  }
+  
+  ion-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  ion-icon[name="heart-circle-outline"] {
+    font-size: 25px; /* Aumentando o tamanho do ícone */
+     /* Se precisar ajustar a cor */
+    margin-left: 9px;
+  }
+  

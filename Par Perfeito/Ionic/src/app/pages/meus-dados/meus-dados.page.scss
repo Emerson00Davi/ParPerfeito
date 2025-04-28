@@ -1,0 +1,58 @@
+.background {
+    --background: none;
+    background-image: url('/assets/img/burgundy.jpeg'); // Substitua com o caminho da sua imagem
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .menu-wrapper {
+    background-color: rgba(255, 255, 255, 0.85); // fundo semi-transparente
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+    
+  /* Estilo para o formulário */
+  form {
+    padding: 20px;
+  }
+  
+  /* Estilo para os cards dos inputs */
+  ion-item.form-item {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    margin-bottom: 16px;
+    --padding-start: 16px;
+    --inner-padding-end: 16px;
+  }
+  
+  /* Rótulos mais bonitos */
+  ion-label {
+    font-weight: bold;
+    color: #333;
+    font-size: 15px;
+  }
+  
+  /* Inputs com cor de texto */
+  ion-input {
+    color: #222;
+  }
+  
+  /* Botão mais bonito */
+  .save-button {
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* Estilo hover (no navegador) */
+  .save-button:hover {
+    filter: brightness(1.1);
+  }
+  

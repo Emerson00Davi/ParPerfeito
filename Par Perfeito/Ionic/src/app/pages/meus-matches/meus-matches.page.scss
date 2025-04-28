@@ -1,0 +1,52 @@
+.custom-item {
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 12px;
+  }
+  
+  .match-name {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .match-score, .match-instagram {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    color: #666;
+  }
+  
+  .match-score ion-icon, .match-instagram ion-icon {
+    margin-right: 5px;
+  }
+  
+  ion-item-sliding {
+    border-radius: 10px;
+    margin: 5px 0;
+  }
+  
+  ion-item {
+    --min-height: 60px; /* Ajusta a altura do item */
+  }
+  
+  ion-row {
+    padding: 0;
+  }
+  
+  ion-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media (max-width: 768px) {
+    .match-score, .match-instagram {
+      font-size: 0.9rem;
+    }
+    .match-name {
+      font-size: 1rem;
+    }
+  }
+  

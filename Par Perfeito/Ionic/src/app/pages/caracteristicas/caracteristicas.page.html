@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defautHref="/menu"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Selecionar Características</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <!-- Lista de características com checkboxes -->
+    <ion-item *ngFor="let caracteristica of caracteristicas">
+      <ion-label>{{ caracteristica.descricao }}</ion-label>
+      <ion-checkbox [(ngModel)]="caracteristica.selected" (ionChange)="atualizarSelecionadas()"></ion-checkbox>
+    </ion-item>
+  </ion-list>
+  
+  <!-- Caixinha para exibir as características selecionadas -->
+  <ion-card *ngIf="selecionadas.length > 0">
+    <ion-card-header>
+      <ion-card-title>Características Selecionadas</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list>
+        <ion-item *ngFor="let caracteristica of selecionadas">
+          <ion-label>{{ caracteristica.descricao }}</ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+  
+
+
+
+  <ion-button expand="full" (click)="associarCaracteristicas()">Submeter</ion-button>
+</ion-content>

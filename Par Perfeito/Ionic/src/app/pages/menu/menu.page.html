@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-buttons slot="start">
+      <ion-icon name="heart-circle-outline"></ion-icon>
+    </ion-buttons>
+    <ion-title>Bem-vindo!</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding background">
+  <div class="menu-wrapper">
+    <ion-list>
+      <ion-item *ngFor="let item of menu" (click)="handleMenuClick(item)" detail class="menu-item">
+        <ion-icon slot="start" [name]="item.icone" [color]="item.cor"></ion-icon>
+        <ion-label>{{ item.titulo }}</ion-label>
+      </ion-item>
+    </ion-list>
+  </div>
+</ion-content>

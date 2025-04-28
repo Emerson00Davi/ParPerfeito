@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width:100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../../../assets/img/fundo.jpeg);
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 60px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col{
+    width: 50%;
+}
+
+h1{
+    color: white;
+    font-size: 80px;
+}
+
+h2{
+    color: white;
+    font-size: 20px;
+}
+
+h3{
+    color: white;
+    font-size: 30px;
+}
+
+h4{
+    color: white;
+    font-size: 50px;
+}
+
+p{
+    color: white;
+    font-size: 12px;
+}
+
+.pct {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+}
+h5{
+    color: white;
+}
+
+button{
+    width: 180px;
+    color: black;
+    font-size: 12px;
+    padding: 12px 0;
+    background-color: white;
+    border: 0;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.but{
+    width: 100px;
+    color: black;
+    font-size: 12px;
+    padding: 12px 0;
+    background-color: white;
+    border: 0;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-left: 5px;
+}
+
+.card{
+    width: 158px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    margin: 10px 15px;
+    /* background-color: red; */
+    transition: 0.5s;
+}
+
+.card:hover{
+    transform: translateY(-15px);
+}
+
+// .card1{
+//     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/img1.jpg);
+// }
+
+// .card2{
+//     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/img2.jpg);
+// }
+
+// .card3{
+//     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/img3.jpg);
+// }
+
+// .card4{
+//     width: 350px;
+//     height: 500px;
+//     display: inline-block;
+//     border-radius: 15px;
+//     padding: 15px 25px;
+//     cursor: pointer;
+//     margin: 10px 15px;
+//     /* background-color: red;  */
+//     transition: 0.5s;
+// }
+
+.card5{
+    width: 350px;
+    height: 350px;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 15px 25px;
+    cursor: pointer;
+    margin: 10px 15px;
+    /* background-color: red;  */
+    transition: 0.5s;
+}
+
+.carda{
+    background-color: #a82828;
+}
+
+.cardb{
+    background-color: #ed1b2f;
+}
+
+.cardc{
+    background-color: #bb1a34;
+}
+
+.custom-button {
+    width: 100%;
+    background-color: white; /* Cor de fundo vermelho */
+    border: none;
+    border-radius: 30px; /* Bordas arredondadas */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    color: #000000; /* Cor do texto */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Espaço entre o texto e a seta */
+  }
+
+.custom-button1 {
+    width: 100%;
+    // background-color: red; /* Cor de fundo vermelho */
+    border: none;
+    border-radius: 30px; /* Bordas arredondadas */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    color: #000000; /* Cor do texto */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Espaço entre o texto e a seta */
+}
+
+.custom-button2 {
+    width: 100%;
+    // background-color: red; /* Cor de fundo vermelho */
+    border: none;
+    border-radius: 30px; /* Bordas arredondadas */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    color: #000000; /* Cor do texto */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Espaço entre o texto e a seta */
+}
+  
+  .custom-button .arrow {
+    background-color: #1A1A40; /* Cor de fundo da seta */
+    color: #FFFFFF; /* Cor da seta */
+    padding: 15px;
+    border-radius: 50%; /* Forma arredondada da seta */
+    margin-left: 10px; /* Espaçamento entre o texto e a seta */
+    font-size: 14px; /* Tamanho da fonte da seta */
+  }
+
+  /* Customização dos campos de input */
+.custom-input-item {
+    --border-radius: 50px; /* Arredondamento das bordas */
+    min-height: 40px; /* Altura menor */
+    background: #fff; /* Cor de fundo */
+    border-color: #ccc; /* Cor da borda */
+    margin-bottom: 10px; /* Espaçamento entre campos */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  .custom-input {
+    font-size: 14px; /* Tamanho menor do texto */
+    --padding-start: 10px; /* Padding interno à esquerda */
+    --padding-end: 10px; /* Padding interno à direita */
+    color: #333; /* Cor do texto */
+  }
+  
+  ion-item.custom-input-item {
+    border: 1px solid var(--border-color); /* Borda com cor customizada */
+    border-radius: var(--border-radius);
+    background-color: var(--background);
+    --highlight-height: 0; /* Remove o destaque padrão do Ionic */
+  }
+  
+  /* Botões */
+//   .custom-button1 {
+//     margin-top: 10px;
+//     border-radius: 12px; /* Bordas arredondadas para o botão */
+//     font-size: 16px;
+//     --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra */
+//   }
+  

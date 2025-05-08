@@ -21,4 +21,8 @@ Projeto designado para atender as necessidades de modernização da brincadeira 
 
 - [*CLIQUE AQUI*](https://drive.google.com/file/d/1n735371i4LgsMqoloLzjUk6_q4-ss5g0/view?usp=sharing)
 
+## Vídeo: 
+**Segue o link para o vídeo realizando teste. Caso haja algum problema com acesso, envie solicitação e será resolvido o mais rápido possível.**
+
+- [*CLIQUE AQUI*](https://drive.google.com/file/d/1nVii0Q6w_If_pv51dX2RczWd_S0OfK2q/view?usp=sharing)
 

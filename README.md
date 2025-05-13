@@ -4,7 +4,7 @@ Projeto designado para atender as necessidades de modernização da brincadeira 
 
 ## Documentação do projeto em PDF:
 
-- [*CLIQUE AQUI*](https://drive.google.com/file/d/1DtQTuCB42AZWJhrq8TP8-H3iNYdxHc3Q/view?usp=drive_link)
+- [*CLIQUE AQUI*](https://drive.google.com/file/d/1-62u7Z1HTUYJqHvLRgOaxHbr_-jc9AnD/view?usp=sharing)
 
 ## Acesso ao docs: 
 **Segue o link do documento do projeto. Caso haja algum problema com acesso, envie solicitação e será resolvido o mais rápido possível.**
